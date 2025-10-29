@@ -8,7 +8,7 @@ flowchart TD
 
     subgraph C[Data Preparation]
         C1[Capture cow images]
-        C2[Manual annotation\n(COCO format)]
+        C2[Manual annotation'\n'(COCO format)]
         C3[Annotate anatomical keypoints\n(hooks, pins, withers, etc.)]
         C4[Create sample dataset]
         C5[Validate label quality]
