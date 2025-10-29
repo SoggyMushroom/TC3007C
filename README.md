@@ -1,6 +1,5 @@
 # TC3007C
 
-## Linear Traits Estimation - Pipeline
+<img width="485" height="1223" alt="image" src="https://github.com/user-attachments/assets/69ba1bf2-fd40-49af-9752-de02bf648e4b" />
 
-<img width="636" height="1223" alt="image" src="https://github.com/user-attachments/assets/c8b15066-1166-4c5a-99d0-4f97367fe203" />
 
