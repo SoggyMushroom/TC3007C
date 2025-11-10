@@ -25,6 +25,21 @@ COCO evaluation provides:
 - mAR (mean Average Recall): Average recall across IoU thresholds (0.50:0.95)
 - The script uses pycocotools to summarize these metrics each validation epoch.
 
+
+## Project Structure
+
+- **train_fasterrcnn_cowparts.py**: Main training script
+
+- **cow_dataset/**: Dataset folder (images + COCO annotations)
+
+- **best_fasterrcnn_cowparts.pth**: Best model checkpoint (by validation mAP)
+
+- **FiftyEpochs_fasterrcnn_cowparts_restored.pth**: Restored best weights
+
+- **prediction.jpg**: Sample inference visualization
+  
+- **Cow_Body_Part_Detection_Report.pdf**: Model report
+
 ## Features 
 
 - COCO-format dataset loader (CowDataset)
@@ -37,17 +52,6 @@ COCO evaluation provides:
   - Loss (train)
   - mAP & mAR (validation IoU=0.50:0.95)
 
-## Project Structure
-
-train_fasterrcnn_cowparts.py ----------------  # Main training script
-
-cow_dataset/ --------------------------------  # Dataset folder (images + COCO annotations)
-
-best_fasterrcnn_cowparts.pth ----------------  # Best model checkpoint (by validation mAP)
-
-FiftyEpochs_fasterrcnn_cowparts_restored.pth - # Restored best weights
-
-prediction.jpg ------------------------------- # Sample inference visualization
 
 ## Requirements:
 - Install dependencies
