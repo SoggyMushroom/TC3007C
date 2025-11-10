@@ -28,7 +28,7 @@ COCO evaluation provides:
 
 ## Project Structure
 
-- **train_fasterrcnn_cowparts.py**: Main training script
+- **InferenceTest.py**: Main script
 
 - **cow_dataset/**: Dataset folder (images + COCO annotations)
 
