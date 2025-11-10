@@ -4,7 +4,7 @@ This project trains a Faster R-CNN (ResNet-50-FPN backbone) to detect cow body p
 
 It includes dataset splitting, COCO evaluation (mAP/mAR), early stopping, and training/validation curve plotting to monitor overfitting.
 
-If you have trouble downloading anithing, try downloading it from here: [IndividualInference](https://drive.google.com/drive/folders/1oglVJM3iefNnJLqC83uX7Pv36KOWyGIb?usp=sharing)
+If you have trouble downloading anything, try downloading it from here: [IndividualInference](https://drive.google.com/drive/folders/1oglVJM3iefNnJLqC83uX7Pv36KOWyGIb?usp=sharing)
 
 ## Model Architecture
 
