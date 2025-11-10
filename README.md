@@ -37,15 +37,15 @@ COCO evaluation provides:
 
 ## Project Structure
 
-train_fasterrcnn_cowparts.py                  # Main training script
+train_fasterrcnn_cowparts.py ----------------  # Main training script
 
-cow_dataset/                                  # Dataset folder (images + COCO annotations)
+cow_dataset/ --------------------------------  # Dataset folder (images + COCO annotations)
 
-best_fasterrcnn_cowparts.pth                  # Best model checkpoint (by validation mAP)
+best_fasterrcnn_cowparts.pth ----------------  # Best model checkpoint (by validation mAP)
 
-FiftyEpochs_fasterrcnn_cowparts_restored.pth  # Restored best weights
+FiftyEpochs_fasterrcnn_cowparts_restored.pth - # Restored best weights
 
-prediction.jpg                                # Sample inference visualization
+prediction.jpg ------------------------------- # Sample inference visualization
 
 ## Requirements:
 - Install dependencies
