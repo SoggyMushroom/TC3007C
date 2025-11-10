@@ -49,31 +49,36 @@ prediction.jpg ------------------------------- # Sample inference visualization
 
 ## Requirements:
 - Install dependencies
-  '''
+
+  ```
   pip install torch torchvision pycocotools matplotlib pillow numpy opencv-python
-  '''
+  ```
+  
 -Optional (for ZIP dataset extraction, which is what i used):
-  '''
+
+  ```
   pip install zipfile36
-  '''
+  ```
 
 ## Usage:
 
 - Option 1 (which is what i used):
-  '''
+  
+  ```
   python train_fasterrcnn_cowparts.py --zip vacas.v1i.coco.zip --epochs 50
-  '''
+  ```
 
   On VCS command prompt:
-  '''
+  
+  ```
   >conda activate .\.conda
   >python InferenceTest.py
-  '''
+  ```
 
 - Option 2: Using an existing data directory:
-  '''
+  ```
   python train_fasterrcnn_cowparts.py --data_dir ./cow_dataset --epochs 50
-  '''
+  ```
 
 | Argument         | Description                                      | Default       |
 | ---------------- | ------------------------------------------------ | ------------- |
