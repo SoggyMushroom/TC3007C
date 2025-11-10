@@ -6,6 +6,21 @@ It includes dataset splitting, COCO evaluation (mAP/mAR), early stopping, and tr
 
 If you have trouble downloading anything, try downloading it from here: [IndividualInference](https://drive.google.com/drive/folders/1oglVJM3iefNnJLqC83uX7Pv36KOWyGIb?usp=sharing)
 
+Save:
+
+- **FiftyEpochs_fasterrcnn_cowparts_restored.pth**
+- **best_fasterrcnn_cowparts.pth**
+- **InferenceTest.py**
+
+  On a VSC folder and run on the VCS command prompt:
+  
+  ```
+  >conda activate .\.conda
+  >python InferenceTest.py
+  ```
+
+  Don't forget to make sure the environment directory is correct
+
 ## Model Architecture
 
 **Model**: Faster R-CNN with ResNet-50 FPN backbone
